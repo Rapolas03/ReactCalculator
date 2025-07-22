@@ -1,3 +1,27 @@
+# React Calculator App
+
+This is a simple calculator application built with React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app dynamically updates the result as the user enters values and operations.
+
+## Features
+
+- **Real-Time Calculation**: The app calculates and displays the result as you type.
+- **Basic Arithmetic Operations**:
+  - Addition (`+`)
+  - Subtraction (`-`)
+  - Multiplication (`×`)
+  - Division (`÷`)
+- **Dynamic Input Validation**: Prevents invalid inputs, such as consecutive operators or starting an expression with an operator.
+- **Backspace Functionality**: Allows users to delete the last entered character using the `DEL` button.
+- **Clear Display**: Displays `0` when no input is provided.
+
+## How It Works
+
+- Users can click on buttons to input numbers and operators.
+- The app dynamically evaluates the entered expression and updates the result in real-time.
+- Pressing the `=` button finalizes the calculation.
+- The `DEL` button removes the last entered character.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
